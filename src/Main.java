@@ -44,7 +44,6 @@ public class Main extends JFrame implements MouseListener {
 
         setTitle(TITLE + " - (calculating...)");
         generateSet();
-        revalidate();
         repaint();
         setTitle(TITLE + " - " + calcTime + " ms");
     }
